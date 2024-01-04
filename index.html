@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Press+Start+2P&family=Tomorrow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator-container">
+      <div class="display">
+        <div data-previous-cal class="previous-cal"></div>
+        <div data-current-cal class="current-cal"></div>
+      </div>
+      <button data-clear>
+        <span class="btn__content">AC</span><span class="btn__glitch"></span>
+      </button>
+      <button data-delete>
+        <span class="btn__content">DEL</span><span class="btn__glitch"></span>
+      </button>
+      <button data-percent>
+        <span class="btn__content">%</span><span class="btn__glitch"></span>
+      </button>
+      <button data-operation>
+        <span class="btn__content">÷</span><span class="btn__glitch"></span>
+      </button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation>
+        <span class="btn__content">x</span><span class="btn__glitch"></span>
+      </button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation>
+        <span class="btn__content">-</span><span class="btn__glitch"></span>
+      </button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation>
+        <span class="btn__content">+</span><span class="btn__glitch"></span>
+      </button>
+      <button data-decimal>.</button>
+      <button data-number>0</button>
+      <button data-equal class="double">
+        <span class="btn__content">=</span><span class="btn__glitch"></span>
+      </button>
+    </div>
+  </body>
+</html>
